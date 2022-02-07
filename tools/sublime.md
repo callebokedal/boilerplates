@@ -27,7 +27,6 @@ If you go too far, use Undo Selection to step backwards:
     Windows/Linux: Ctrl+U
     Mac: ⌘+U
 
-
 ## Column selection
 
 Using the Mouse
