@@ -24,10 +24,11 @@ sudo gpasswd -d <groupname> <username>
 # 2. Boot from USB
 # 3. Choose "Try Ubuntu"
 # 4. Start terminal
-# 5. Create temporary dir
+# 5. Create temporary dir (in your home directory for example)
 mkdir resuce
-# 6. Mount root disk
-fdisk -l # to see disk to mount
+# 6. Find and mount root disk
+fdisk -l # to see disk to mount (in this ex: /dev/sda5)
+mount /dev/sda5 rescue/
 # 7. Edit file
 cd rescue/etc
 sudo visudo sudoers
