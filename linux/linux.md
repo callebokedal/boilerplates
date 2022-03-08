@@ -1,5 +1,32 @@
 # General Linux things
 
+## bash and zsh
+```bash
+#!/bin/sh
+
+# zsh
+https://support.apple.com/en-us/HT208050
+```
+
+## Disk free
+```bash
+# Easiest
+df -h
+# On primay hard drive
+df -h /
+# Specific 
+df -h /dev/sda2
+```
+
+## Disk usage
+```bash
+du -h
+# Limit depth
+du -h -d 2
+# Human readable, max depth 2, max size 10M
+du -h -d 2 -t 10M /somefolder
+```
+
 ## Users and groups
 ```bash
 # Check id for current user
