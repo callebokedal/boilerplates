@@ -1,4 +1,4 @@
-# Visual Studi0 Code 
+# Visual Studio Code 
 
 ## Key shortcuts
 

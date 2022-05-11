@@ -66,3 +66,10 @@ $ git commit -c ORIG_HEAD                      # (4)
     git grep <pattern> <path>
     git grep <pattern> <path_to_file>
 
+# Common errors
+
+## GH007: Your push would publish a private email address.
+
+For local repo use:
+
+    git config user.email "{ID}+{username}@users.noreply.github.com"
