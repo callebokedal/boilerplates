@@ -1,5 +1,15 @@
 # python
 
+## Versions
+https://iscompatible.readthedocs.io/en/latest/
+
+### Get versions
+```bash
+pip freeze > requirements.txt
+# then
+pip install -r requirements.txt
+```
+
 # Result of command in script
 ```py
 import os
@@ -76,4 +86,31 @@ ssh_cmd = subprocess.Popen(shlex.split(cmd), stdin=subprocess.PIPE, stdout=subpr
 ssh_cmd.stdin.write("date")
 ssh_cmd.stdin.close()
 print(ssh_cmd.stdout.read())
+```
+
+# How to user requirements.txt
+```bash
+# Create
+pip freeze > requirements.txt
+
+# Create requirements.txt by searching files
+pip install pipreqs
+# and then
+$ pipreqs /home/project/location
+# Successfully saved requirements file in /home/project/location/requirements.txt
+
+# Install, update or uninstall
+pip install -r requirements.txt
+pip install -U -r requirements.txt # Update according to versions in file
+pip uninstall -r requirements.txt
+
+# See outdated
+pip list --outdated
+
+# Upgrade one package
+pip install -U <package-name>
+
+# Check missing dependencies
+python -m pip check
+
 ```

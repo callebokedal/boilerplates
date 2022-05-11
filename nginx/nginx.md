@@ -1,6 +1,6 @@
 # nginx
 
-## chroot nging
+## chroot nginx
 https://www.cyberciti.biz/faq/howto-run-nginx-in-a-chroot-jail/
 https://www.cyberciti.biz/faq/unix-linux-chroot-command-examples-usage-syntax/
 
