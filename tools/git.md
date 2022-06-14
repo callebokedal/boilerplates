@@ -21,7 +21,7 @@ git config --global user.email "first.lastname@example.com"
 
 ## Update remote
 
-    git remote set-url origin https://cabo02@diva.teliacompany.net/bitbucket/scm/dc-core/teliabookmarklet.git
+    git remote set-url origin https://example.com/mybookmarklet.git
 
 ## Proxy
 
@@ -72,4 +72,5 @@ $ git commit -c ORIG_HEAD                      # (4)
 
 For local repo use:
 
-    git config user.email "{ID}+{username}@users.noreply.github.com"
+    git config --local user.email "{ID}+{username}@users.noreply.github.com"
+    git config --local user.name "{name}"

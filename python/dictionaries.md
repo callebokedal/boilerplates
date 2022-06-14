@@ -36,3 +36,15 @@ print({k:v for (k,v) in names.items() if v.startswith('A')})
 # {1: 'Alice', 4: 'Ann'}
 
 ```
+
+## SimpleNamespace
+
+```py
+# SimpleNamespace is a native package
+from types import SimpleNamespace
+
+stats = SimpleNamespace()
+stats.foo = 3
+stats.bar = 4
+
+```
