@@ -15,3 +15,10 @@ map	        map(function, iterable,...]	    Returns iterator that applies functi
 filter	    filter(function, iterable)	    Returns an iterator from elements of iterable for which function returns true.
 iter	    iter(object[,sentinel])	        Converts an iterable into an iterator.
 ```
+
+# Iterate over lists
+```py
+for item in reviews:
+    for name, review in item.items():
+        print(name)
+```

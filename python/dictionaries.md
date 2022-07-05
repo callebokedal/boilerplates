@@ -19,6 +19,15 @@ def filter_dict(d, f):
 
     return newDict
 
+# Prevent KeyError
+MLB_team = {
+    'Colorado' : 'Rockies',
+    'Boston'   : 'Red Sox',
+    'Minnesota': 'Twins',
+    'Milwaukee': 'Brewers',
+    'Seattle'  : 'Mariners'
+}
+'Toronto' in MLB_team and MLB_team['Toronto']
 
 # FILTER BY KEY
 print(filter_dict(names, lambda k,v: k%2 == 1))
