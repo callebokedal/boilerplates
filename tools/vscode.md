@@ -25,3 +25,15 @@ Select a block of lines, and then split it into many selections, one per line, u
 
     Windows:    shift + alt + Mouse Left Button
     macOS:      shift + option + Click
+# Visual Studio Code 
+
+## Key shortcuts
+
+Select multiple lines
+
+    Mac/Windows/Linux: Shift + Alt + i
+
+Multiselect 
+
+    Mark text
+    Mac: Shift + Cmd + l 

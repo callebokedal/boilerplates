@@ -38,4 +38,15 @@ netstat -anv | grep <port> | awk 'BEGIN{FS=" "}{print $4,$5,$6,$9}'
 ps -Ao user,pid,command | grep -v grep | grep ' <port> '
 ```
 
-## 
+## Open ports
+
+```bash
+# Local
+lsof -i -P | grep -i "listen"
+
+# Remote - test if open
+nc -vz -u 8.8.8.8 53
+
+# Port scan
+nc -vz <hostname or ip address> 1-1000
+```

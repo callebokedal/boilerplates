@@ -32,4 +32,12 @@ python -m venv .virtualenv --upgrade
 python -m venv /path/to/venv --upgrade
 ```
 
+## Get secrets
+```py
+from dotenv import load_dotenv # pip install python-dotenv
+import os
 
+load_dotenv() 
+
+secret_key=os.getenv("my_secret_key")
+```
