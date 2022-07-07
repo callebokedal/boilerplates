@@ -1,4 +1,4 @@
-// To be stored in .vscode folder
+// To be stored in .vscode folder (for each repository)
 {
     "python.analysis.diagnosticSeverityOverrides": {
         //"reportUnusedImport": "information",
