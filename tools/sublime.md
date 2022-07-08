@@ -15,6 +15,15 @@ To add all occurrences of the current word to the selection, use Find All:
     Windows/Linux: Alt+F3
     Mac: ⌃+⌘+G
 
+## Advanced search and replace
+
+    Use regexp groups to find and replace certain patterns
+
+    Find:       ";#([0-9])"
+    Replace:    ";\n$1"
+
+    Result: ";#123" -> ";\n123"
+
 ## Adding a Line
 
 To add the line above or below to the selection, use:
